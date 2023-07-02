@@ -13,7 +13,7 @@
 
 ## Herramientas y licencias
 
-#Licencia propuesa: GPL-V2.0
+# Licencia propuesa: GPL-V2.0
 
 QGIS: Es un Sitema de Informacion Geografica (SIG) de software libre y de codigo abierto para plataformas GNU/Linux, Unix, Mac OS, Microsoft Windows y Android.2​
 Licencia: GPL-V2.0
