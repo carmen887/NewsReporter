@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Reporter</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="/img/newreporter.png" class="logo">
+        <nav class="menu"> <a href="./index.html">Informacion</a></nav>
+        <nav> <a href="./index2.html">Mapa</a></nav>
+    </div>
+    <div class="fondo">
+        <img src="fondito.jpg" class="fondito">
+        <div class="tarjeta">
+          <div class="titulo">Crime Reporter ahora News Reporter</div>
+          <div class="cuerpo">
+            <p>
+                Pagina basada en la aplicacion Crime Reporter 2.0
+                <br>
+                News Reporter presenta el caso de El Salvador que en el transcurso de los años ha sido sede de múltiples eventos violentos, dicha situación se vuelve alarmante, por lo que se busca dar respuesta a preguntas como ¿En qué municipios se producen más hechos violentos? a lo largo de los años ¿Los incidentes se han reducido o han aumentado?. 
+                <br>
+                Teniendo en cuenta que no solo suceden homicidios en nuestro país sino también otra cantidad de eventos violentos, se busca mostrar dichos sucesos, para poder prevenir o tomar conciencia así como también para mantenerlos informados con datos clasificados.
+              <br>  
+              News Reporter se encarga de mostrar una nueva clasificacion acerca de los eventos de violencia en El Salvador a lo largo de los años, funcionando como un modelo informativo.
+            </p>
+            <div class="c">
+              <img src="./img/CrimeReporterLOGO.png" class="p">
+              <img src="./img/newreporter.png" class="n">
+            </div>
+          </div>
+          <div class="pie">
+            <a href="./index2.html">Ver Mapa</a>
+          </div>
+          </div>
+          
+        <style>
+          .c{
+            display: flex;
+            flex-direction: row;
+          }
+          .p{
+            width: 150px; 
+            height: 35px;
+            margin-left: 200px;
+            margin-top: 30px;
+          }
+          .n{
+            width: 175px; 
+            height: 80px;
+            margin-left: 60px;
+          }
+            .logo{ 
+              width: 150px; 
+              height: 50px; 
+              margin: 0px; 
+              margin-left: 10px;} 
+            .nav{ 
+              background-color: lightgrey; 
+              display: flex;} 
+            nav{
+              margin: 10px; 
+              margin-left: 30px; 
+              font-size: large;}
+            .menu{
+              margin-left: 900px;
+              }
+            a {
+                text-decoration: none; 
+                font-size: large; 
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+                color: black;}
+            .fondito{
+                position: absolute;;
+                width: 1350px;
+                height: 560px;
+                opacity: 0.6;
+            }
+            p{
+              text-align: justify;
+            }
+            .tarjeta{
+              align-items: center;
+              position: absolute;
+              margin-left: 270px;
+              margin-top: 80px;
+              display:flex;
+              flex-direction:column;
+              justify-content:center;
+              width:820px;
+              height: 400px;
+              border: 1px solid lightgray;
+              box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+              border-radius:15px;
+              font-family: sans-serif;
+            }
+            .titulo{
+              font-size: 24px;
+              margin-bottom: 10px;
+              margin-top: 30px;
+              padding: 10px 10px 0 10px;;
+            }
+            .cuerpo{
+              padding: 10px;
+            }
+            .pie{
+              background: #6699ff;
+              border-radius:0 0 15px 15px;
+              padding: 10px;
+              text-align:center;
+
+            }
+            .pie a{
+              text-decoration: none;
+              color: white;
+            }
+            .pie a:after {
+              position: absolute;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              z-index: 1;
+              content: ""
+            }
+        </style>            
+    </div>
+</body>
+</html>
