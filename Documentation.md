@@ -46,7 +46,7 @@ Graph API de facebook: Es una herramienta para obtener datos dentro y fuera de l
 
 Licencia: **Licencia de uso de la API de Facebook**
 
-![Meta](NewsReporter\img\meta.jpeg)
+![Meta](NewsReporter/img/meta.jpeg)
 
 ### [Leaflet](https://leafletjs.com/)
 
@@ -54,7 +54,7 @@ Es una librería JavaScript open source muy utilizada para la publicación de ma
 
 Licencia: **BSD-2-Cláusula**
 
-![Leaflet](NewsReporter\img\leaflet.jpeg)
+![Leaflet](NewsReporter/img/leaflet.jpeg)
 
 ### [Tweepy](https://www.tweepy.org/)
 
@@ -62,7 +62,7 @@ Es una librería de Python que nos va a permitir realizar lo mismo que en el pas
 
 Licencia: **MIT**
 
-![Tweepy](NewsReporter\img\tweepy.jpeg)
+![Tweepy](NewsReporter/img/tweepy.jpeg)
 
 ### [QGIS](https://www.qgis.org/en/site/)
 
@@ -70,14 +70,14 @@ Es un Sistema de Información Geográfica (SIG) de software libre y de código a
 
 Licencia: **GPL-V2.0**
 
-![QGIS](NewsReporter\img\qgis.jpeg)
+![QGIS](NewsReporter/img/qgis.jpeg)
 
 ## Manual técnico
 ---
 
 Esta es una versión web de la aplicación Crime Reporter, por lo que no necesita de ningún instalador ni de algún procedimiento extra para ejecutarlo.
 
-![Now](NewsReporter\img\CRtoNR.jpeg)
+![Now](NewsReporter/img/CRtoNR.jpeg)
 
 ### Crime Reporter
 
@@ -100,20 +100,20 @@ EJECUTAR EN LA CARPETA DEL PROYECTO:
 
 1. El inicio de la pagina: Se presenta una pantalla en donde el usuario puede conocer acerca de que trata la pagina y presenta el menú con la opción de conocer el mapa y ver la información.
 
-![start](NewsReporter\img\inicio.jpeg)
+![start](NewsReporter/img/inicio.jpeg)
 
 2. En la pestaña del mapa: Al presionar la pestaña del mapa se le presentan los datos en el mapa representados en escalas de colores.
 
-![map](NewsReporter\img\mapa.jpeg)
+![map](NewsReporter/img/mapa.jpeg)
 
 3. Interactividad: Para interactuar con el mapa tenemos varias opciones, como lo es acercar y alejar el mapa.
 
-![zoom](NewsReporter\img\zoom.jpeg)
+![zoom](NewsReporter/img/zoom.jpeg)
 
 4. Ademas de ello se tiene la posibilidad de consultar el historial e interactuar con los años
 
-![legend](NewsReporter\img\leyenda.jpeg)
+![legend](NewsReporter/img/leyenda.jpeg)
 
 5. También presenta el acceso a las tecnologías y datos utilizados para la realización de dicha página.
 
-![access](NewsReporter\img\accesos.jpeg)
+![access](NewsReporter/img/accesos.jpeg)
