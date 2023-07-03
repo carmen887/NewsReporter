@@ -11,39 +11,16 @@
 ### Fernando Adonay Rosa Cardoza	00022319
 ### Daniel Ernesto Morales Sigüenza	00139419
 
-## Herramientas y licencias
+# Comunicacion 
 
-# Licencia propuesa: GPL-V2.0
+La comunicacion del grupo se realizo a traves de reuniones presenciales y por medio de la aplicacion WhatsApp
 
-QGIS: Es un Sitema de Informacion Geografica (SIG) de software libre y de codigo abierto para plataformas GNU/Linux, Unix, Mac OS, Microsoft Windows y Android.2​
+![image](https://github.com/carmen887/NewsReporter/assets/54786234/a0780169-35a7-48e0-be6b-790db5594fcc)
 
-Licencia: GPL-V2.0
 
-Sitio: https://www.qgis.org/es/site/
+# Manejo de errores 
 
-![image](https://github.com/carmen887/NewsReporter/assets/54786234/2019caaf-1414-4391-8baa-17b08d285f8a)
+Para el manejo y gestion del proyecto se construyo un espacio de trabajo en [ClickUp](https://app.clickup.com/42104774/v/s/90090393631) en donde se detallaron las tareas a realizar, el tiempo que requeririamos para realizar cada una de ellas, las personas delegadas para su realizacion, el avance de ellas, hasta llegar a su completacion, en caso de existir errores se detalla y de esto depende la aceptacion o rechazo de la tarea asignada.
 
-Leaflet: Es una librería JavaScript open source ampliamente utilizada para la publicación de mapas en la web. Lanzado por primera vez en 2011, es compatible con la mayoría de las plataformas móviles y de escritorio y admite HTML5 y CSS3.
-
-Licencia: BSD-2-Clause
-
-Sitio: https://leafletjs.com/
-
-![image](https://github.com/carmen887/NewsReporter/assets/54786234/4545a193-a8b0-4c66-b2dc-721c956e68df)
-
-Tweepy: Es una librería de Python que nos va a permitir realizar lo mismo que en el paso anterior pero de una forma mucho más rápida y eficiente. En general este tipo de conectores están mantenidos por la comunidad.
-
-Licencia: MIT
-
-Sitio: https://www.tweepy.org/
-
-![image](https://github.com/carmen887/NewsReporter/assets/54786234/545c3917-6f37-4463-aa34-e88beeed57b9)
-
-Graph API de facebook: Es una herramienta para obetener datos dentro y fuera de la plataforma de Facebook. Es una API basada en HTTP que la aplicaciones pueden utilizar para consultar datos mediante programacion.
-
-Licencia: Licencia de uso de la API de Facebook
-
-Sitio https://developers.facebook.com/docs/graph-api/
-
-![image](https://github.com/carmen887/NewsReporter/assets/54786234/a2b419fb-36ab-46a0-ada7-8826c33a2776)
+![image](https://github.com/carmen887/NewsReporter/assets/54786234/faedbf7b-6de2-41df-a171-cb19877c85c6)
 
