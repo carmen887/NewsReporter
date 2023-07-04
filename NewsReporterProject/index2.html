@@ -8,14 +8,13 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="css/leaflet.css">
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="css/leaflet-measure.css">
         <style>
         #map {
             width: 1340px;
             height: 555px;
         }
         </style>
-        <title>News Reporter</title>
+        <title></title>
     </head>
     <body>
         <!-- Contenedor que contiene el nav, este posee el logo y las pestañas para navegar en la pagina -->
@@ -57,7 +56,6 @@
         <script src="js/rbush.min.js"></script>
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
-        <script src="js/leaflet-measure.js"></script>
         <script src="data/2008_1.js"></script>
         <script src="data/2009_2.js"></script>
         <script src="data/2010_3.js"></script>
@@ -94,22 +92,10 @@
         }
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:1
-        }).fitBounds([[13.044282827675755,-91.23789248323331],[15.993716642107021,-85.77862850782154]]);
+        }).fitBounds([[12.477572024957029,-90.65084894117669],[14.45406566366533,-86.88882782266136]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://localhost:8081/geoserver/crimeG2/wms"; <a></a> &middot; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &middot; <a href="https://github.com/MetziLuna/Datos_SV/tree/main/Crimen">Datos SV</a> &middot; <a href="https://github.com/ReneMel/CrimeReporter-SV">CrimeReporter 2.0</a> &middot; <a href="https://leafletjs.com">Leaflet</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
-        var measureControl = new L.Control.Measure({
-            position: 'topleft',
-            primaryLengthUnit: 'feet',
-            secondaryLengthUnit: 'miles',
-            primaryAreaUnit: 'sqfeet',
-            secondaryAreaUnit: 'sqmiles'
-        });
-        measureControl.addTo(map);
-        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
-        .innerHTML = '';
-        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
-        .className += ' fas fa-ruler';
         var bounds_group = new L.featureGroup([]);
         function setBounds() {
         }
@@ -135,7 +121,6 @@
                 },
                 mouseover: highlightFeature,
             });
-
             var popupContent = '<table>\
                 <tr>\
                     <td colspan="2">' + "Municipio: " + (feature.properties['NOM_MUN'] !== null ? autolinker.link(feature.properties['NOM_MUN'].toLocaleString()) : '') + '</td>\
@@ -1236,7 +1221,7 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(247,232,239,1.0)',
+                fillColor: 'rgba(255,239,250,1.0)',
                 interactive: true,
             }
             }
@@ -1251,7 +1236,7 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(248,213,218,1.0)',
+                fillColor: 'rgba(254,218,225,1.0)',
                 interactive: true,
             }
             }
@@ -1266,7 +1251,7 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(249,193,196,1.0)',
+                fillColor: 'rgba(253,196,201,1.0)',
                 interactive: true,
             }
             }
@@ -1281,7 +1266,7 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(250,174,175,1.0)',
+                fillColor: 'rgba(252,175,177,1.0)',
                 interactive: true,
             }
             }
@@ -1589,24 +1574,24 @@
                 mouseover: highlightFeature,
             });
             var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + "Departamento: " + (feature.properties['NOM_DPTO'] !== null ? autolinker.link(feature.properties['NOM_DPTO'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + "Lesiones: " + (feature.properties['Lesiones'] !== null ? autolinker.link(feature.properties['Lesiones'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + "Violencia Sexual: " + (feature.properties['ViolenciaS'] !== null ? autolinker.link(feature.properties['ViolenciaS'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + "Violencia Intrafamiliar: " + (feature.properties['ViolenciaIntra'] !== null ? autolinker.link(feature.properties['ViolenciaIntra'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + "Suicidios: " + (feature.properties['Suicidio'] !== null ? autolinker.link(feature.properties['Suicidio'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">'+ "Homicidios: " + (feature.properties['Homicidio'] !== null ? autolinker.link(feature.properties['Homicidio'].toLocaleString()) : '') + '</td>\
-                    </tr>\
+                <tr>\
+                    <td colspan="2">' + "Departamento: " + (feature.properties['NOM_DPTO'] !== null ? autolinker.link(feature.properties['NOM_DPTO'].toLocaleString()) : '') + '</td>\
+                </tr>\
+                <tr>\
+                    <td colspan="2">' + "Lesiones: " + (feature.properties['Lesiones'] !== null ? autolinker.link(feature.properties['Lesiones'].toLocaleString()) : '') + '</td>\
+                </tr>\
+                <tr>\
+                    <td colspan="2">' + "Violencia Sexual: " + (feature.properties['ViolenciaS'] !== null ? autolinker.link(feature.properties['ViolenciaS'].toLocaleString()) : '') + '</td>\
+                </tr>\
+                <tr>\
+                    <td colspan="2">' + "Violencia Intrafamiliar: " + (feature.properties['ViolenciaIntra'] !== null ? autolinker.link(feature.properties['ViolenciaIntra'].toLocaleString()) : '') + '</td>\
+                </tr>\
+                <tr>\
+                    <td colspan="2">' + "Suicidios: " + (feature.properties['Suicidio'] !== null ? autolinker.link(feature.properties['Suicidio'].toLocaleString()) : '') + '</td>\
+                </tr>\
+                <tr>\
+                    <td colspan="2">'+ "Homicidios: " + (feature.properties['Homicidio'] !== null ? autolinker.link(feature.properties['Homicidio'].toLocaleString()) : '') + '</td>\
+                </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
@@ -1835,9 +1820,9 @@
                 mouseover: highlightFeature,
             });
             var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + "Homicidios a nivel nacional: " + (feature.properties['Homicidio'] !== null ? autolinker.link(feature.properties['Homicidio'].toLocaleString()) : '') + '</td>\
-                    </tr>\
+                <tr>\
+                    <td colspan="2">' + "Homicidios a nivel nacional: " + (feature.properties['Homicidio'] !== null ? autolinker.link(feature.properties['Homicidio'].toLocaleString()) : '') + '</td>\
+                </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
@@ -1885,9 +1870,9 @@
                 mouseover: highlightFeature,
             });
             var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + "Homicidios a nivel nacional: " + (feature.properties['Homicidio'] !== null ? autolinker.link(feature.properties['Homicidio'].toLocaleString()) : '') + '</td>\
-                    </tr>\
+                <tr>\
+                    <td colspan="2">' + "Homicidios a nivel nacional: " + (feature.properties['Homicidio'] !== null ? autolinker.link(feature.properties['Homicidio'].toLocaleString()) : '') + '</td>\
+                </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
@@ -1935,9 +1920,9 @@
                 mouseover: highlightFeature,
             });
             var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + "Homicidios a nivel nacional: " + (feature.properties['Homicidio'] !== null ? autolinker.link(feature.properties['Homicidio'].toLocaleString()) : '') + '</td>\
-                    </tr>\
+                <tr>\
+                    <td colspan="2">' + "Homicidios a nivel nacional: " + (feature.properties['Homicidio'] !== null ? autolinker.link(feature.properties['Homicidio'].toLocaleString()) : '') + '</td>\
+                </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
@@ -1985,9 +1970,9 @@
                 mouseover: highlightFeature,
             });
             var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + "Homicidios a nivel nacional: " + (feature.properties['Homicidio'] !== null ? autolinker.link(feature.properties['Homicidio'].toLocaleString()) : '') + '</td>\
-                    </tr>\
+                <tr>\
+                    <td colspan="2">' + "Homicidios a nivel nacional: " + (feature.properties['Homicidio'] !== null ? autolinker.link(feature.properties['Homicidio'].toLocaleString()) : '') + '</td>\
+                </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
@@ -2035,9 +2020,9 @@
                 mouseover: highlightFeature,
             });
             var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + "Homicidios a nivel nacional: " + (feature.properties['Homicidio'] !== null ? autolinker.link(feature.properties['Homicidio'].toLocaleString()) : '') + '</td>\
-                    </tr>\
+                <tr>\
+                    <td colspan="2">' + "Homicidios a nivel nacional: " + (feature.properties['Homicidio'] !== null ? autolinker.link(feature.properties['Homicidio'].toLocaleString()) : '') + '</td>\
+                </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
