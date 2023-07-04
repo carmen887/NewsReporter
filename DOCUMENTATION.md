@@ -85,7 +85,7 @@ Licencia: **GPL-V2.0**
 
 Esta es una versión web de la aplicación Crime Reporter, por lo que no necesita de ningún instalador ni de algún procedimiento extra para ejecutarlo.
 
-![Now](NewsReporter/img/CRtoNR.jpeg)
+![Now](NewsReporterProject/img/CRtoNR.jpeg)
 
 ### Crime Reporter
 
@@ -108,20 +108,20 @@ EJECUTAR EN LA CARPETA DEL PROYECTO:
 
 1. El inicio de la pagina: Se presenta una pantalla en donde el usuario puede conocer acerca de que trata la pagina y presenta el menú con la opción de conocer el mapa y ver la información.
 
-![start](NewsReporter/img/inicio.jpeg)
+![start](NewsReporterProject/img/inicio.jpeg)
 
 2. En la pestaña del mapa: Al presionar la pestaña del mapa se le presentan los datos en el mapa representados en escalas de colores.
 
-![map](NewsReporter/img/mapa.jpeg)
+![map](NewsReporterProject/img/mapa.jpeg)
 
 3. Interactividad: Para interactuar con el mapa tenemos varias opciones, como lo es acercar y alejar el mapa.
 
-![zoom](NewsReporter/img/zoom.jpeg)
+![zoom](NewsReporterProject/img/zoom.jpeg)
 
 4. Ademas de ello se tiene la posibilidad de consultar el historial e interactuar con los años
 
-![legend](NewsReporter/img/leyenda.jpeg)
+![legend](NewsReporterProject/img/leyenda.jpeg)
 
 5. También presenta el acceso a las tecnologías y datos utilizados para la realización de dicha página.
 
-![access](NewsReporter/img/accesos.jpeg)
+![access](NewsReporterProject/img/accesos.jpeg)
