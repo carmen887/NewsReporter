@@ -40,6 +40,14 @@ Limitaciones:
 ## Licencias y tecnologías utilizadas
 ---
 
+### [Geoserver](https://geoserver.org/)
+
+Geoserver es un servidor de Java de código abierto que permite a sus usuarios compartir y editar data geoespacial. Es un método fácil para conectar información existente a mapas y globos virtuales.
+
+Licencia: **GPL**
+
+![geoserver](NewsReporter/img/geoserver.jpg)
+
 ### [Graph API](https://developers.facebook.com/docs/graph-api/)
 
 Graph API de facebook: Es una herramienta para obtener datos dentro y fuera de la plataforma de Facebook. Es una API basada en HTTP que las aplicaciones pueden utilizar para consultar datos mediante programación.
