@@ -46,7 +46,7 @@ Geoserver es un servidor de Java de código abierto que permite a sus usuarios c
 
 Licencia: **GPL**
 
-![geoserver](NewsReporter/img/geoserver.jpg)
+![image](https://github.com/carmen887/NewsReporter/assets/54786234/0737fc51-6023-4aa7-844e-37a64dcc2ccc)
 
 ### [Graph API](https://developers.facebook.com/docs/graph-api/)
 
