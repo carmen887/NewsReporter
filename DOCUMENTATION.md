@@ -54,7 +54,7 @@ Graph API de facebook: Es una herramienta para obtener datos dentro y fuera de l
 
 Licencia: **Licencia de uso de la API de Facebook**
 
-![Meta](NewsReporter/img/meta.jpeg)
+![image](https://github.com/carmen887/NewsReporter/assets/54786234/39067f62-8125-401f-8651-2c74c0f95065)
 
 ### [Leaflet](https://leafletjs.com/)
 
@@ -62,7 +62,7 @@ Es una librería JavaScript open source muy utilizada para la publicación de ma
 
 Licencia: **BSD-2-Cláusula**
 
-![Leaflet](NewsReporter/img/leaflet.jpeg)
+![image](https://github.com/carmen887/NewsReporter/assets/54786234/c73d90d6-95c5-4cce-9355-835d5808d526)
 
 ### [Tweepy](https://www.tweepy.org/)
 
@@ -70,7 +70,7 @@ Es una librería de Python que nos va a permitir realizar lo mismo que en el pas
 
 Licencia: **MIT**
 
-![Tweepy](NewsReporter/img/tweepy.jpeg)
+![image](https://github.com/carmen887/NewsReporter/assets/54786234/70d3fe5f-c170-4c4e-84e3-d15b69a271c7)
 
 ### [QGIS](https://www.qgis.org/en/site/)
 
@@ -78,7 +78,7 @@ Es un Sistema de Información Geográfica (SIG) de software libre y de código a
 
 Licencia: **GPL-V2.0**
 
-![QGIS](NewsReporter/img/qgis.jpeg)
+![image](https://github.com/carmen887/NewsReporter/assets/54786234/928fb605-8a18-47f7-b1c1-38ad5bc438bd)
 
 ## Manual técnico
 ---
